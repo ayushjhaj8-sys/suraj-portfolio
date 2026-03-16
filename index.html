@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suraj Boyfriend Portfolio</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:linear-gradient(135deg,#ff4e8a,#6a5cff);
+color:white;
+text-align:center;
+overflow-x:hidden;
+}
+
+/* hearts animation */
+
+.heart{
+position:fixed;
+bottom:-50px;
+font-size:24px;
+animation:floatUp 6s linear infinite;
+opacity:0.7;
+}
+
+@keyframes floatUp{
+0%{transform:translateY(0);opacity:1;}
+100%{transform:translateY(-110vh);opacity:0;}
+}
+
+/* hero section */
+
+.hero{
+padding:40px 20px;
+}
+
+.hero img{
+width:220px;
+border-radius:20px;
+box-shadow:0 15px 40px rgba(0,0,0,0.4);
+transition:0.4s;
+}
+
+.hero img:hover{
+transform:scale(1.1) rotateY(15deg);
+}
+
+/* cards */
+
+.card{
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+margin:25px auto;
+padding:25px;
+border-radius:20px;
+width:90%;
+max-width:320px;
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px) scale(1.04);
+}
+
+/* form */
+
+input{
+padding:10px;
+width:85%;
+border:none;
+border-radius:10px;
+margin:6px;
+}
+
+button{
+padding:12px 25px;
+border:none;
+border-radius:20px;
+background:white;
+color:black;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+background:#ffd6e8;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- hearts -->
+<div class="heart" style="left:10%">❤️</div>
+<div class="heart" style="left:30%">💖</div>
+<div class="heart" style="left:50%">💘</div>
+<div class="heart" style="left:70%">💕</div>
+<div class="heart" style="left:90%">💞</div>
+
+<div class="hero">
+
+<h1>Suraj ❤️</h1>
+<p>Official Boyfriend Portfolio</p>
+
+<img src="suraj.jpg" alt="Suraj Photo">
+
+<p>Namaste 🙏 Future Girlfriend</p>
+
+</div>
+
+<div class="card">
+
+<h2>About Suraj</h2>
+
+<p>📍 From Bihar</p>
+<p>📏 Height: 4.9 ft</p>
+<p>💰 Salary: ₹200/month</p>
+
+</div>
+
+<div class="card">
+
+<h2>Skills</h2>
+
+<p>❤️ Romantic</p>
+<p>😂 Comedy King</p>
+<p>🤝 Caring</p>
+
+</div>
+
+<div class="card">
+
+<h2>Why Date Suraj?</h2>
+
+<p>✔ Loyal</p>
+<p>✔ Funny</p>
+<p>✔ Will share samosa</p>
+
+</div>
+
+<div class="card">
+
+<h2>Apply to be Suraj's Girlfriend</h2>
+
+<form>
+<input type="text" placeholder="Your Name" required><br>
+<input type="text" placeholder="Instagram ID"><br>
+<input type="text" placeholder="City"><br>
+<button type="submit">Submit Application</button>
+</form>
+
+</div>
+
+</body>
+</html>
